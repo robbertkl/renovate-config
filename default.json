@@ -1,8 +1,8 @@
 {
-    "extends": [
-      "config:base",
-      ":automergeMinor",
-      ":automergeBranch"
-    ]
-  }
-  
+  "extends": [
+    "config:base",
+    ":automergeMinor",
+    ":automergeBranch",
+    ":skipStatusChecks"
+  ]
+}
